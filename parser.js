@@ -1,5 +1,4 @@
 const crypto = require("crypto");
-const inTheNameOfGod = require("./images/inTheNameOfGod");
 
 function checksum(str, algorithm, encoding) {
   return crypto
